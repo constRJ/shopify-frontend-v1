@@ -1,16 +1,14 @@
 import { combineReducers } from "redux";
-import { persistReducers } from "redux-persist";
-import storage from "redux-persist/lib/storage";
 import accountReducer from "./account";
 
-const persistConfig = {
-  key: "shopify",
-  storage,
-  whiteList: [""],
-};
+// const persistConfig = {
+//   key: "shopify",
+//   storage,
+//   whiteList: ["account"],
+// };
 
-const rootReducer = combineReducers({
+export default combineReducers({
   account: accountReducer,
 });
 
-export default persistReducers(persistConfig, rootReducer);
+// export default persistReducers(persistConfig, rootReducer);
