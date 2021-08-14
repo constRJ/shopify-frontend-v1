@@ -16,10 +16,13 @@
         "src/containers/*"
       ],
       "@actions/*": [
-        "src/actions/*"
+        "src/redux/actions/*"
       ],
       "@reducers/*": [
-        "src/reducers/*"
+        "src/redux/reducers/*"
+      ],
+      "@store/*": [
+        "src/redux/store/*"
       ],
       "@layouts/*": [
         "src/layouts/*"
