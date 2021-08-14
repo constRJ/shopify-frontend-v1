@@ -1,15 +1,13 @@
-import React, { memo } from 'react'
+import React, { memo } from "react";
 
 const LandingPageLayout = (props) => {
   return (
     <>
       <div className="landing-page-layout">
-        <main>
-          {props.children}
-        </main>
+        <main>{props.children}</main>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default memo(LandingPageLayout)
+export default memo(LandingPageLayout);
