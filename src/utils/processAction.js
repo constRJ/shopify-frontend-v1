@@ -1,6 +1,6 @@
-import request from "@api";
+import request from "@api/index";
 
-const processAction = (dispatch, option) => {
+const processAction = async (dispatch, option) => {
   dispatch({
     type: option.request,
     payload: { params: option.params, body: option.body },

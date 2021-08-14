@@ -1,9 +1,9 @@
+import { useStore } from "@store/index";
 import Head from "next/head";
 import React from "react";
 import { Provider } from "react-redux";
 import { persistStore } from "redux-persist";
 import { PersistGate } from "redux-persist/integration/react";
-import { useStore } from "../src/redux/store";
 import "../src/styles/custom.scss";
 import "../src/styles/main.scss";
 import "../src/styles/theme.scss";

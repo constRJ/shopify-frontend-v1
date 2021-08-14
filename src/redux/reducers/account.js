@@ -14,14 +14,14 @@ const initialState = {
 
 const reducers = (state = initialState, action) => {
   switch (action.type) {
-    case "GET_ACCOUNT":
+    case "GET_ALL_ACCOUNTS":
       return Object.assign({}, state, {
         account: {
           ...defaultState,
           isLoading: true,
         },
       });
-    case "GET_ACCOUNT_SUCCESS":
+    case "GET_ALL_ACCOUNTS_SUCCESS":
       return Object.assign({}, state, {
         account: {
           isLoading: false,
@@ -32,7 +32,7 @@ const reducers = (state = initialState, action) => {
         },
       });
 
-    case "GET_ACCOUNT_FAILED":
+    case "GET_ALL_ACCOUNTS_FAILED":
       return Object.assign({}, state, {
         account: {
           isLoading: false,
