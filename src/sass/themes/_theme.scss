@@ -1,0 +1,19 @@
+@import "../base/variables";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+.navbar-brand {
+  color: $text-color;
+  font-weight: 800;
+  &:hover,
+  &:focus {
+    color: $text-color;
+  }
+}
+.navbar-light {
+  border-color: unset;
+  .navbar-toggler {
+    border-color: unset;
+    color: unset;
+    border: none;
+  }
+}
