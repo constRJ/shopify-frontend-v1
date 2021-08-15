@@ -7,6 +7,14 @@ $nav-link-color: $text-link-color;
 $nav-link-hover-color: $text-link-color;
 $font-family-sans-serif: "Open Sans", sans-serif;
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px,
+) !default;
+
 .navbar-brand {
   color: $text-color !important;
   font-weight: 800;
