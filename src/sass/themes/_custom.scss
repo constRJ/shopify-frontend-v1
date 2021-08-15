@@ -1,8 +1,14 @@
 @import "../base/variables";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
+// Add things here for customization
+
+$nav-link-color: $text-link-color;
+$nav-link-hover-color: $text-link-color;
+$font-family-sans-serif: "Open Sans", sans-serif;
+
 .navbar-brand {
-  color: $text-color;
+  color: $text-color !important;
   font-weight: 800;
   &:hover,
   &:focus {
