@@ -4,7 +4,7 @@ import { Col, Container, Nav, Navbar } from "react-bootstrap";
 const TopNavbar = () => {
   return (
     <>
-      <Navbar expand="lg" className="position-absolute py-5 w-100">
+      <Navbar expand="lg" className="verma-navbar-container position-absolute py-5 w-100">
         <Container fluid="lg" className="px-lg-5 px-md-3">
           <Col
             md={1}
