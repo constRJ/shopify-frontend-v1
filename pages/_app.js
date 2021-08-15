@@ -1,12 +1,12 @@
 import { useStore } from "@store/index";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "next/head";
 import React from "react";
 import { Provider } from "react-redux";
 import { persistStore } from "redux-persist";
 import { PersistGate } from "redux-persist/integration/react";
-import "../src/styles/custom.scss";
-import "../src/styles/main.scss";
-import "../src/styles/theme.scss";
+import "../src/sass/App.scss";
+import "../src/sass/Custom.scss";
 function MyApp({ Component, pageProps }) {
   const store = useStore(pageProps.initialReduxState);
   const persistor = persistStore(store);
