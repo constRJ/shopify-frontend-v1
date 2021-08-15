@@ -1,0 +1,39 @@
+@import "../../sass/base/index";
+
+.verma-banner-container {
+  height: 100vh;
+  background-image: url("../../../public/banner/homepage-bg.png");
+  object-fit: cover;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include breakpoint(xs) {
+    background-position: 75% 30%;
+    height: 90vh;
+  }
+  .verma-banner-info {
+    margin: 0 0 0 100px;
+
+    @include breakpoint(xs) {
+      margin: 0 auto 2rem;
+    }
+    @include breakpoint(sm) {
+      margin: 0 0 0 75px;
+    }
+    @include breakpoint(md) {
+      margin: 0 0 0 50px;
+    }
+    h1 {
+      font-weight: 900;
+    }
+    p {
+      color: $text-link-color;
+    }
+    button {
+      @include breakpoint(xs) {
+        width: 100%;
+      }
+    }
+  }
+}

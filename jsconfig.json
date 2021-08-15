@@ -30,6 +30,12 @@
       "@api/*": [
         "src/api/*"
       ],
+      "@mixins/*": [
+        "src/sass/base/mixins"
+      ],
+      "@variables/*": [
+        "src/sass/base/variables"
+      ],
       "@theme": [
         "src/styles/theme"
       ]
