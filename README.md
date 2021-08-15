@@ -8,6 +8,17 @@ This is an coding interview exam for Mid-Level Shopify Frontend Developer
 
 Arjay D. Marquez
 
+## Code Challenge Instruction
+
+- Implement the first page / the homepage (slide 1) of this Invision mock up / wireframe:
+  - https://projects.invisionapp.com/share/C9UI0F5VG6N#/screens
+  - The web site should be responsive. Here are the mobile wireframes:
+    https://projects.invisionapp.com/share/JKULP4WPRDX#/screens
+- The slider should work like this
+  - Example of the slider: https://www.thefarmersdog.com
+- Use the assets / images provided to you (attached to the email sent to you).
+- The waves are animated. That needs to be done with JavaScript
+
 ## Design System
 
 - Bootstrap@4.6
