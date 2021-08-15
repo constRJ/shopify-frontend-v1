@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an coding interview exam for Mid-Level Shopify Frontend Developer
+This is a coding chanllenge for Mid-Level Shopify Frontend Developer
 
 ## Authors
 
