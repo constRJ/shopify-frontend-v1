@@ -1,0 +1,40 @@
+@import "../../sass/base/index";
+
+.verma-about-col-1 {
+  h2 {
+    color: $text-color;
+    font-weight: 900;
+  }
+  p {
+    color: $text-link-color;
+  }
+}
+.verma-about-card-item {
+  width: 100%;
+  border: none;
+  @include boxShadow();
+
+  @include breakpoint(xs) {
+    max-width: 370px;
+  }
+  @include breakpoint(sm) {
+    max-width: 370px;
+  }
+  @include breakpoint(md) {
+    max-width: 370px;
+  }
+  @include breakpoint(lg) {
+    max-width: 370px;
+  }
+  img {
+    height: 370px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+  }
+  .card-body {
+    div {
+      max-width: 250px;
+      margin: 0 auto;
+    }
+  }
+}
